@@ -1,9 +1,7 @@
+//Write a code print hello world
 void main(){
-    int a = 10;
-    int b = 20;
-    System.out.println("Hello World");
-    System.out.println(a+b);
-    System.out.println(a-b);
-    System.out.println(a*b);
-    System.out.println(a/b);
+    System.out.print("Hello World!" + "- ");
+    System.out.println("Welcome to Java programming.");
 }
+
+
