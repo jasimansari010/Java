@@ -88,22 +88,79 @@
 
 
 // Basic arithmetic operations
-public class Basic {
-    public static void main(String[] args){
-        int num1 = 120;
-        int num2 = 38;
-        int sum = num1 + num2;
-        int difference = num1 - num2;
-        int product = num1 * num2;
-        int quotient = num1 / num2;
-        int remainder = num1 % num2;
+// public class Basic {
+//     public static void main(String[] args){
+//         int num1 = 120;
+//         int num2 = 38;
+//         int sum = num1 + num2;
+//         int difference = num1 - num2;
+//         int product = num1 * num2;
+//         int quotient = num1 / num2;
+//         int remainder = num1 % num2;
 
-        System.out.println("num1 = " + num1);
-        System.out.println("num2 = " + num2);
-        System.out.println("sum = " + sum);
-        System.out.println("difference = " + difference);
-        System.out.println("product = " + product);
-        System.out.println("quotient = " + quotient);
-        System.out.println("remainder = " + remainder);
-    }
-}
+//         System.out.println("num1 = " + num1);
+//         System.out.println("num2 = " + num2);
+//         System.out.println("sum = " + sum);
+//         System.out.println("difference = " + difference);
+//         System.out.println("product = " + product);
+//         System.out.println("quotient = " + quotient);
+//         System.out.println("remainder = " + remainder);
+//     }
+// }
+
+
+
+
+// relational operators
+// public class Basic {
+//     public static void main(String[] args){
+//         int num1 = 20;
+//         int num2 = 10;
+
+//         System.out.println("num1 = " + num1);
+//         System.out.println("num2 = " + num2);
+//         System.out.println("num1 > num2: " + (num1 > num2));
+//         System.out.println("num1 < num2: " + (num1 < num2));
+//         System.out.println("num1 == num2: " + (num1 == num2));
+//         System.out.println("num1 != num2: " + (num1 != num2));
+//         System.out.println("num1 >= num2: " + (num1 >= num2));
+//         System.out.println("num1 <= num2: " + (num1 <= num2));
+//     }
+// }
+
+
+
+
+
+// logical operators
+// public class Basic {
+//     public static void main(String[] args){
+//         int a = 10;
+//         int b = 20;
+
+//         System.out.println((a+b>=30) && (b+a>=30));
+//         System.out.println((a+b>=30) || (b+a<=30));
+//         System.out.println(!(a+b ==30));
+//     }
+// }
+
+
+// public class Basic {
+//     public static void main(String[] args){
+//         int a = 10;
+//         int b = 20;
+
+//         System.out.println("value of a = " + a);
+//         System.out.println("value of b = " + b);
+//         System.out.println("a == 10 && b == 30: " + ((a==10) && (b==30)));
+//         System.out.println("a == 10 || b == 30: " + ((a==10) || (b==30)));
+//         System.out.println("!(a == 10): " + (!(a==10)));
+//         System.out.println("!(a == 20): " + (!(a==20)));
+//     }
+// }
+
+
+
+
+
+
