@@ -65,12 +65,21 @@
 // public class Basic {
 //     public static void main(String[] args){  
 //         int num1 = 10;
-//         double num2 = num1;
+//         double num2 = num1; // Implicit type casting
 //         System.out.println(num2);
 
 //         double num3 = 7.8;
 //         int num4 = (int)num3; // Explicit type casting
 //         System.out.println(num4);
+
+//         char letter = 'A';
+//         int letterValue = letter; // Implicit type casting
+//         System.out.println("Value of letter A is: " + letterValue);
+
+
+//         int num5 = 65;
+//         char char_value = (char)num5; // Explicit type casting
+//         System.out.println("Character representation of 65 is: " + char_value);
 //     }
 // }
     
@@ -79,22 +88,22 @@
 
 
 // Basic arithmetic operations
-// public class Basic {
-//     public static void main(String[] args){
-//         int num1 = 120;
-//         int num2 = 38;
-//         int sum = num1 + num2;
-//         int difference = num1 - num2;
-//         int product = num1 * num2;
-//         int quotient = num1 / num2;
-//         int remainder = num1 % num2;
+public class Basic {
+    public static void main(String[] args){
+        int num1 = 120;
+        int num2 = 38;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        int remainder = num1 % num2;
 
-//         System.out.println("num1 = " + num1);
-//         System.out.println("num2 = " + num2);
-//         System.out.println("sum = " + sum);
-//         System.out.println("difference = " + difference);
-//         System.out.println("product = " + product);
-//         System.out.println("quotient = " + quotient);
-//         System.out.println("remainder = " + remainder);
-//     }
-// }
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+        System.out.println("sum = " + sum);
+        System.out.println("difference = " + difference);
+        System.out.println("product = " + product);
+        System.out.println("quotient = " + quotient);
+        System.out.println("remainder = " + remainder);
+    }
+}
