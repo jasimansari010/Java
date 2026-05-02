@@ -164,3 +164,75 @@
 
 
 
+
+// Assignment operators
+// public class Basic {
+//     public static void main(String[] args){
+//         int num = 10;
+//         System.out.println("Initial value of num: " + num);
+
+//         num += 5; // num = num + 5
+//         System.out.println("After += 5: " + num);
+
+//         num -= 3; // num = num - 3
+//         System.out.println("After -= 3: " + num);
+
+//         num *= 2; // num = num * 2
+//         System.out.println("After *= 2: " + num);
+
+//         num /= 4; // num = num / 4
+//         System.out.println("After /= 4: " + num);
+
+//         num %= 3; // num = num % 3
+//         System.out.println("After %= 3: " + num);
+//     }
+// }
+
+
+
+
+
+//Unary Increment and Decrement Operators
+// public class Basic {
+//     public static void main(String[] args){
+//         int num = 5;
+//         System.out.println("Initial value of num: " + num);
+
+//         // Post-increment
+//         System.out.println("Post-increment (num++): " + (num++)); // prints 5, then num becomes 6
+//         System.out.println("Value of num after post-increment: " + num); // prints 6
+
+//         // Pre-increment
+//         System.out.println("Pre-increment (++num): " + (++num)); // num becomes 7, then prints 7
+//         System.out.println("Value of num after pre-increment: " + num); // prints 7
+
+//         // Post-decrement
+//         System.out.println("Post-decrement (num--): " + (num--)); // prints 7, then num becomes 6
+//         System.out.println("Value of num after post-decrement: " + num); // prints 6
+
+//         // // Pre-decrement
+//         System.out.println("Pre-decrement (--num): " + (--num)); // num becomes 5, then prints 5
+//         System.out.println("Value of num after pre-decrement: " + num); // prints 5
+//     }
+// }   
+
+
+
+
+
+//Ternary Operator
+// public class Basic {
+//     public static void main(String[] args){
+//         int num1 = 10;
+//         int num2 = 20;
+
+//         // Using ternary operator to find the maximum of two numbers
+//         int max = (num1 > num2) ? num1 : num2;
+//         System.out.println("The maximum of " + num1 + " and " + num2 + " is: " + max);
+
+//         // Using ternary operator to check if a number is even or odd
+//         int number = 16;
+//         String result = (number % 2 == 0) ? "Even" : "Odd";
+//         System.out.println(number + " is an " + result);
+//     }
+// }
