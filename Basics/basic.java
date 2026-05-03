@@ -236,3 +236,115 @@
 //         System.out.println(number + " is an " + result);
 //     }
 // }
+
+
+
+
+
+// InstanceOf Operator- Intanceof work only with objects and not with primitive data types
+// public class Basic {
+//     public static void main(String[] args){
+//         Integer num = 10;
+
+//         System.out.println(num instanceof Integer); // true
+//         System.out.println(num instanceof Object);  // true
+//     }
+// }
+
+
+
+//Taking Input from user
+// import java.util.Scanner;
+// public class Basic {
+//     public static void main(String[] args){
+//         Scanner sc= new Scanner(System.in);
+//         int num1, num2;
+//         System.out.print("Enter first number: ");
+//         num1 = sc.nextInt();
+//         System.out.print("Enter second number: ");
+//         num2 = sc.nextInt();
+//         System.out.println("first value: " + num1 + " " + "Second value: " + num2);
+//         System.out.println("Sum: " + (num1 + num2));
+//         System.out.println("Difference: " + (num1 - num2));
+
+//         sc.nextLine();
+//         System.out.print("Enter your name: ");
+//         String name = sc.nextLine();
+//         System.out.println("My name is " + name);
+//     }
+// }
+
+
+
+
+
+//conditional statements
+//if statement
+// public class Basic {
+//     public static void main(String[] args){
+//         int num = 15;
+//         if(num > 0 ){
+//             System.out.println(num);
+//         }
+//     }
+// }   
+
+
+
+
+// if-else statement
+// public class Basic {
+//     public static void main(String[] args){
+//         int age = 18;
+//         if(age >= 18 ){
+//             System.out.println("You are eligible to vote.");
+//         }else{
+//             System.out.println("You are not eligible to vote.");
+//         }
+//     }
+// }   
+
+
+
+
+// if-else if statement
+// import java.util.Scanner;
+// public class Basic {
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter your marks: ");
+//         int marks = sc.nextInt();
+//         if(marks >= 90){
+//             System.out.println("Grade: A");
+//         }else if(marks >= 70){
+//             System.out.println("Grade: B");
+//         }else if(marks >= 50){
+//             System.out.println("Grade: C");
+//         }else{
+//             System.out.println("Fail");
+//         }
+//     }
+// }
+
+
+
+
+import java.util.Scanner;
+public class Basic{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your age: ");
+        int age = sc.nextInt();
+        System.out.print("Do you have ID? (true/false): ");
+        boolean Id = sc.nextBoolean();
+        if(age >= 18){
+            if(Id){
+                System.out.println("You are eligible to vote");
+            }else{
+                System.out.println("Not eligible");
+            }
+        }else{
+            System.out.println("Not Eligible");
+        }
+    }
+}
