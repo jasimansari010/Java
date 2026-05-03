@@ -331,25 +331,71 @@
 
 
 //if-else ladder
-import java.util.Scanner;
+// import java.util.Scanner;
+// public class Basic {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter your age: ");
+//         int age = sc.nextInt();
+
+//         if (age >= 18) {
+//             System.out.print("Do you have ID? (true/false): ");
+//             boolean Id = sc.nextBoolean();
+
+//             if (Id) {
+//                 System.out.println("You are eligible to vote");
+//             } else {
+//                 System.out.println("ID required");
+//             }
+//         } else {
+//             System.out.println("Not Eligible");
+//         }
+//     }
+// }
+
+
+
+
+
+// nested if else
+// public class Basic{
+//     public static void main(String[] args) {
+//         int age = 10;
+//         boolean hasID = true;
+
+//         if (age >= 18) {
+//             if (hasID) {
+//                 System.out.println("Allowed entry");
+//             } else {
+//                 System.out.println("ID required");
+//             }
+//         } else {
+//             System.out.println("Not allowed");
+//         }
+//     }
+// }
+
+
+
+
+
+//Switch Statement
 public class Basic {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter your age: ");
-        int age = sc.nextInt();
-
-        if (age >= 18) {
-            System.out.print("Do you have ID? (true/false): ");
-            boolean Id = sc.nextBoolean();
-
-            if (Id) {
-                System.out.println("You are eligible to vote");
-            } else {
-                System.out.println("ID required");
-            }
-        } else {
-            System.out.println("Not Eligible");
+        int day = 2;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+        case 2:
+            System.out.println("Tuesday");
+            break;
+        case 3:
+            System.out.println("Wednesday");
+            break;
+        default:
+            System.out.println("Invalid day");
         }
     }
 }
