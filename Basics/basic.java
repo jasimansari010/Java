@@ -419,13 +419,41 @@
 
 
 //loops in java
-//for loop
-public class Basic {
-    public static void main(String[] args) {
-        int a = 10;
-        for(int i=1;i<=10;i++){
-            int table = a*i;
-            System.out.println(table);
-        }
-    }
-}
+// for loop
+// public class Basic{
+//     public static void main(String[] args) {
+//         for(int i=1;i<10;i++){
+//             System.out.println("hello");
+//         }
+//     }
+// }
+
+
+
+// public class Basic {
+//     public static void main(String[] args) {
+//         int a = 2;
+//         for(int i=1;i<=10;i++){
+//             int table = a*i;
+//             System.out.print(table + " ");
+//         }
+//     }
+// }
+
+
+// import java.util.Scanner;
+// public class Basic {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number: ");
+//         int num = sc.nextInt();
+//         for(int i=1;i<=10;i++){
+//             int table = num*i;
+//             System.out.println(num + " * " + i + " = " + table);
+//         }
+//     }
+// }
+
+
+
+
