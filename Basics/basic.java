@@ -457,3 +457,113 @@
 
 
 
+// public class Basic{
+//     public static void main(String[] args) {
+//         for(int i=1;i<=4;i++){
+//             for(int j=1;j<=4;j++){
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+
+// public class Basic{
+//     public static void main(String[] args) {
+//         for(int i=1;i<=4;i++){
+//             for(int j=1;j<=4;j++){
+//                 System.out.println("i = "+ i + ",j = " + j);
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// break and continue keyword
+// public class Basic{
+//     public static void main(String[] args) {
+//         for(int i=1;i<=10;i++){
+//             if(i==5){
+//                 break;
+//             }
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+
+
+// public class Basic{
+//     public static void main(String[] args) {
+//         for(int i=1;i<=10;i++){
+//             if(i==5){
+//                 continue;
+//             }
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+
+
+
+//while loop
+// public class Basic{
+//     public static void main(String[] args) {
+//         int i = 1;
+//         while(i <= 10){
+//             System.out.println(i);
+//             i++;
+//         }
+//     }
+// }
+
+
+
+// public class Basic{
+//     public static void main(String[] args) {
+//         int num = 7;
+//         int i = 1;
+//         while(i <= 10){
+//             System.out.println(num + "*" + i + "=" + num*i);
+//             i++;
+//         }
+//     }
+// }
+
+
+
+// public class Basic {
+//     public static void main(String[] args) {
+//         int i = 1;
+//         while(i<=3){
+//             int j =1;{
+//                 while(j <=3){
+//                     System.out.print("* ");
+//                     j++;
+//                 }
+//                 System.out.println();
+//             }
+//             i++;
+//         }
+//     }
+// }
+
+
+
+
+// do while
+// public class Basic {
+//     public static void main(String[] args) {
+//         int i = 1;
+//         do{
+//             System.out.println(i);
+//             i++;
+//         }while(i >= 5);
+//     }
+// }
