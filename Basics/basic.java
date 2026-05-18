@@ -567,3 +567,17 @@
 //         }while(i >= 5);
 //     }
 // }
+
+
+
+
+
+//binary to decimal without conversion
+public class Basic {
+    public static void main(String[] args) {
+        System.out.println(0b100);
+        System.out.println(0b101);
+        System.out.println(0b10);
+        System.out.println(0b1101);
+    }
+}
