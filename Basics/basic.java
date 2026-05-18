@@ -573,11 +573,39 @@
 
 
 //binary to decimal without conversion
-public class Basic {
-    public static void main(String[] args) {
-        System.out.println(0b100);
-        System.out.println(0b101);
-        System.out.println(0b10);
-        System.out.println(0b1101);
-    }
-}
+// public class Basic {
+//     public static void main(String[] args) {
+//         System.out.println(0b100);
+//         System.out.println(0b101);
+//         System.out.println(0b10);
+//         System.out.println(0b1101);
+//     }
+// }
+
+
+//octal to decimal without conversion
+// public class Basic {
+//     public static void main(String[] args) {
+//         System.out.println(0100);
+//         System.out.println(0101);
+//         System.out.println(017);
+//         System.out.println(01761);
+//     }
+// }
+
+
+
+// //hexadecimal to decimal without conversion
+// public class Basic {
+//     public static void main(String[] args) {
+//         System.out.println(0x15A);
+//         System.out.println(0x19316);
+//         System.out.println(0x10C);
+//     }
+// }
+
+
+
+
+
+
