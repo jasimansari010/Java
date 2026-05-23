@@ -609,3 +609,34 @@
 
 
 
+// Bitweise Operator
+// public class Basic{
+//     public static void main(String[] args) {
+//         System.out.println(4 & 5);        //4
+//         System.out.println(4 | 5);       //5
+//         System.out.println(4 ^ 5);       //1
+//     }
+// }
+
+
+// public class Basic{
+//     public static void main(String[] args) {
+//         int a = 5;
+
+//         //left shift
+//         // System.out.println(~5);   //-6
+//         // System.out.println(a<<1);   //10
+//         // System.out.println(a<<2);   //20
+//         // System.out.println(a<<3);   //40
+
+
+
+//         // System.out.println(a>>1);   //2
+//         // System.out.println(a>>2);   //1
+//         // System.out.println(a>>3);   //3
+
+//     }
+// }
+
+
+
