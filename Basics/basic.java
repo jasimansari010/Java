@@ -642,23 +642,23 @@
 
 //Math function
 
-public class Basic {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        System.out.println(Math.max(a,b));
-        System.out.println(Math.min(a,b));
-        System.out.println(Math.abs(-9));
-        System.out.println(Math.floor(7.8));
-        System.out.println(Math.ceil(7.8));
-        System.out.println(Math.round(7.8));
-        System.out.println(Math.round(7.3));
-        System.out.println(Math.round(7.5));
-        System.out.println(Math.pow(2,3));
-        System.out.println(Math.sqrt(14));
-        System.out.println(Math.cbrt(27));
-    }
-}
+// public class Basic {
+//     public static void main(String[] args) {
+//         int a = 10;
+//         int b = 20;
+        // System.out.println(Math.max(a,b));
+        // System.out.println(Math.min(a,b));
+        // System.out.println(Math.abs(-9));
+        // System.out.println(Math.floor(7.8));
+        // System.out.println(Math.ceil(7.8));
+        // System.out.println(Math.round(7.8));
+        // System.out.println(Math.round(7.3));
+        // System.out.println(Math.round(7.5));
+        // System.out.println(Math.pow(2,3));
+        // System.out.println(Math.sqrt(14));
+        // System.out.println(Math.cbrt(27));
+//     }
+// }
 
 
 
