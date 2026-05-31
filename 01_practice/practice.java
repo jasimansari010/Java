@@ -71,13 +71,13 @@
 // }
 
 
-// public class practice {
-//     public static void main(String[] args) {
-//         char ch = 'A';
-//         int ascii = ch;
-//         System.out.println("ASCII value of " + ch + " is " + ascii);
-//     }
-// }
+public class practices {
+    public static void main(String[] args) {
+        char ch = 'A';
+        int ascii = ch;
+        System.out.println("ASCII value of " + ch + " is " + ascii);
+    }
+}
 
 
 
