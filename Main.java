@@ -322,4 +322,31 @@ public class Main{
 
 
 
+//Math Class
+/* 
+public class Main {
+    public static void main(String[] args) {
+        int a=10, b=43;
+        System.out.println(Math.max(a,b));
+        System.out.println(Math.min(a,b));
+        System.out.println(Math.abs(-7));
+        System.out.println(Math.floor(7.6));
+        System.out.println(Math.ceil(7.6));
+        System.out.println(Math.round(7.6));
+        System.out.println(Math.round(7.5));
+        System.out.println(Math.round(7.3));
+
+        System.out.println();
+
+
+        System.out.println(Math.pow(2,3));
+        System.out.println(Math.sqrt(16));
+        System.out.println(Math.sqrt(8));
+        System.out.println(Math.cbrt(16));
+    }
+}
+*/
+
+
+
 
