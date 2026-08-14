@@ -943,3 +943,191 @@ public class Main {
 
 
 
+// Nested loop
+// 1.Square Pattern
+            // * * * * * 
+            // * * * * * 
+            // * * * * * 
+            // * * * * * 
+            // * * * * *
+/* public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=5;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+ */
+
+
+
+// 2.Right Half Pyramid
+            // * 
+            // * * 
+            // * * * 
+            // * * * * 
+            // * * * * * 
+/* public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+ */
+
+
+
+
+
+// 3.left half pyramid 
+                    //         * 
+                    //       * * 
+                    //     * * * 
+                    //   * * * * 
+                    // * * * * * 
+/* public class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=n-1;j>=i;j--){
+                System.out.print("  ");
+            }
+            for(int k=1;k<=i;k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+} */
+
+
+
+
+
+// 4.Pyramid Pattern 
+                    //     * 
+                    //    * * 
+                    //   * * * 
+                    //  * * * * 
+                    // * * * * * 
+/* public class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=n-1;j>=i;j--){
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+} */
+
+
+
+
+
+// 5. Reverse right half pyramid 
+                // * * * * * 
+                // * * * * 
+                // * * * 
+                // * * 
+                // * 
+/* public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=5;i++){
+            for(int j=5;j>=i;j--){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+} */
+
+
+
+
+
+
+// 6. Reverse left half pyramid
+                        // * * * * * 
+                        //   * * * * 
+                        //     * * * 
+                        //       * * 
+                        //         * 
+/* public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<i;j++){
+                System.out.print("  ");
+            }
+            for(int k=5;k>=i;k--){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+} */
+
+
+
+
+
+
+// 7. Rhombus Pattern 
+                // * * * * * 
+                //   * * * * * 
+                //     * * * * * 
+                //       * * * * * 
+                //         * * * * *    
+/* public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<i;j++){
+                System.out.print("  ");
+            }
+            for(int k=1;k<=5;k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+} */
+
+
+
+
+// 8.Reverse Pyramid 
+                    // * * * * * 
+                    //  * * * * 
+                    //   * * * 
+                    //    * * 
+                    //     * 
+/* public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<i;j++){
+                System.out.print(" ");
+            }
+            for(int k=5;k>=i;k--){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+} */
+
+
+
+
+
+
