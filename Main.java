@@ -898,3 +898,48 @@ public class Main {
 
 
 
+
+
+/* import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Guess the number: ");
+        int guessNum = sc.nextInt();
+        int randomNum = ((int)(Math.random()*10)+1);
+
+        if(guessNum == randomNum){
+            System.out.println("You guess correct number: ");
+        }else{
+            System.out.println("You are Wrong: ");
+        }
+    }
+} */
+
+
+
+
+
+/* import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int randomNum = (int)(Math.random()*100+1);
+        int guess = 0;
+        do{
+            System.out.print("Guess the number between 1 to 100: ");
+            guess = sc.nextInt();
+            if(guess < randomNum){
+                System.out.println("Less Number, guess the higher number: ");
+            }else if(guess > randomNum){
+                System.out.println("High Number, guess the lesser number: ");
+            }else{
+                System.out.println("Congratulation you win the game:");
+            }
+        }while(guess != randomNum);
+    }
+} */
+
+
+
+
